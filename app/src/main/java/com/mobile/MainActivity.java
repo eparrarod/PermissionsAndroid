@@ -1,15 +1,12 @@
 package com.mobile;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 
@@ -30,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // if we remove this, then the system will open URLs in the default browser
         // instead of our WebView
 
+        String puppy = "Puppies are cute";
 
         mGoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
